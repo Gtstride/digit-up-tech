@@ -9,7 +9,7 @@ const OurServices = () => {
 			<div className='container'>
 				<div className='row'>
 					<div className='wow zoomIn col-xs-12 text-center p-padding'>
-						<h1 className='section-title'> our service </h1>{' '}
+						<h1 className='section-title'> our service </h1>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed accumsan
 							venenatis lectus sed sollicitudin.Duis in odio ex.Sed elementum varius
@@ -20,25 +20,14 @@ const OurServices = () => {
 
 					<div className='col-xs-12 col-sm-5 col-md-5'>
 						<div className='left-column'>
-							{/* <div className='wow zoomIn media'>
-								<div className='media-left media-middle'>
-									<a href='#0'>
-										<i className='fa flaticon-christmas128' />
-									</a>
-								</div>
-								<div className='media-body'>
-									<h2> ajax page transitions </h2> <h3> Vero eos et accusamus et </h3>
-									<span> iusto odio </span>{' '}
-								</div>
-							</div> */}
 							<div className='wow zoomIn media'>
 								<div className='media-left media-middle'>
 									<a href='#0'>
-										<i className='fa fa-database' />
+										<i className='fa fa-leanpub' />
 									</a>
 								</div>
 								<div className='media-body'>
-									<h2> ultimate layouts </h2>
+									<h2> Training </h2>
 									<h3> Vero eos et accusamus et </h3> <span> iusto odio </span>
 								</div>
 							</div>
@@ -49,7 +38,7 @@ const OurServices = () => {
 									</a>
 								</div>
 								<div className='media-body'>
-									<h2> responsive design </h2>
+									<h2> Web Development</h2>
 									<h3> Vero eos et accusamus et </h3> <span> iusto odio </span>
 								</div>
 							</div>
@@ -64,27 +53,17 @@ const OurServices = () => {
 					{/* /col-md-2 */}
 					<div className='col-xs-12 col-sm-5 col-md-5'>
 						<div className='right-column'>
-							<div className='wow zoomIn media'>
-								{/* <div className='media-left media-middle'>
-									<a href='#0'>
-										<i className='fa flaticon-leaf32' />
-									</a>
-								</div> */}
-								{/* <div className='media-body'>
-									<h2> MULTIPLE HEADER styles </h2>
-									<h3> Vero eos et accusamus et </h3> <span> iusto odio </span>
-								</div> */}
-							</div>
+							<div className='wow zoomIn media'></div>
 							{/* /.media */}
 							<div className='wow zoomIn media'>
 								<div className='media-left media-middle'>
 									<a href='#0'>
-										<i className='fa fa-rocket' />
+										<i className='fa fa-desktop' />
 									</a>
 								</div>
 								{/* media left*/}
 								<div className='media-body'>
-									<h2> ONE PAGE OPTION </h2> <h3> Vero eos et accusamus et </h3>
+									<h2> Web Design </h2> <h3> Vero eos et accusamus et </h3>
 									<span> iusto odio </span>
 								</div>
 								{/*/.media body*/}
@@ -93,11 +72,22 @@ const OurServices = () => {
 							<div className='wow zoomIn media'>
 								<div className='media-left media-middle'>
 									<a href='#0'>
-										<i className='fa fa-laptop' />
+										<i className='fa fa-cube' />
 									</a>
 								</div>
 								<div className='media-body'>
-									<h2> 24 / 7 HOURS SUPPORT </h2>
+									<h2>Product Management</h2>
+									<h3> Vero eos et accusamus et </h3> <span> iusto odio </span>
+								</div>
+							</div>
+							<div className='wow zoomIn media'>
+								<div className='media-left media-middle'>
+									<a href='#0'>
+										<i className='fa fa-users' />
+									</a>
+								</div>
+								<div className='media-body'>
+									<h2>Team Building</h2>
 									<h3> Vero eos et accusamus et </h3> <span> iusto odio </span>
 								</div>
 							</div>

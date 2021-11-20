@@ -6,7 +6,7 @@ import './App.css';
 import Counting from './components/counting/Counting';
 import Header from './components/header/Header';
 // import Blog from "./pages/blog/Blog";
-import CleanCode from './pages/clean-code/CleanCode';
+// import CleanCode from './pages/clean-code/CleanCode';
 import LatestWork from './pages/latest-work/LatestWork';
 import OurServices from './pages/services/OurServices';
 import OurTeam from './pages/team/OurTeam';
@@ -26,7 +26,7 @@ const MainApp = () => {
 				<Header />
 				<WhoWeAre />
 				<OurServices />
-				<CleanCode />
+				{/* <CleanCode /> */}
 				<LatestWork />
 				<OurTeam />
 				<Counting />

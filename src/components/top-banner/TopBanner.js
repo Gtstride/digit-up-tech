@@ -1,9 +1,11 @@
 /** @format */
 
 import React from 'react';
+import slider0 from '../../img/slider/image.png';
 import slider1 from '../../img/slider/slider_img_01.jpg';
 import slider02 from '../../img/slider/slider_img_02.jpg';
 import slider03 from '../../img/slider/slider_img_03.jpg';
+import slider04 from '../../img/slider/slider_img_04.png';
 import mobile from '../../img/slider/mobile.png';
 import html from '../../img/slider/html.png';
 import css from '../../img/slider/css.png';
@@ -25,7 +27,7 @@ const TopBanner = () => {
 					>
 						{/* MAIN IMAGE */}
 						<img
-							src={slider1}
+							src={slider04}
 							alt='fullslide2'
 							data-bgposition='center center'
 							data-kenburns='on'
@@ -51,7 +53,7 @@ const TopBanner = () => {
 								zIndex: 5,
 								maxWidth: 'auto',
 								maxHeight: 'auto',
-								fontSize: 45,
+								fontSize: 85,
 								whiteSpace: 'nowrap',
 								color: '#fff',
 							}}
@@ -98,7 +100,7 @@ const TopBanner = () => {
 								zIndex: 5,
 								maxWidth: 'auto',
 								maxHeight: 'auto',
-								fontSize: 45,
+								fontSize: 65,
 								whiteSpace: 'nowrap',
 								color: '#f9844c',
 							}}
@@ -286,8 +288,9 @@ const TopBanner = () => {
 								type='button'
 								className='btn btn-primary'
 								style={{
-									backgroundColor: '#e84700',
+									backgroundColor: '#000',
 									border: '1px solid #e95e1d',
+									color: '#f9844c',
 								}}
 							>
 								Call Now
@@ -435,7 +438,16 @@ const TopBanner = () => {
 								color: '#f9844c',
 							}}
 						>
-							<button type='button' className='btn btn-default buy-btn'>
+							<button
+								style={{
+									backgroundColor: 'black',
+									fontSize: '50',
+									border: '1px solid #e95e1d',
+									color: '#f9844c',
+								}}
+								type='button'
+								className='btn btn-primary buy-btn'
+							>
 								call now
 							</button>
 						</div>
@@ -451,7 +463,8 @@ const TopBanner = () => {
 					>
 						{/* MAIN IMAGE */}
 						<img
-							src={slider03}
+							// src={slider03}
+							src={slider0}
 							alt='kenburns1'
 							data-bgposition='left center'
 							data-kenburns='on'
@@ -511,6 +524,7 @@ const TopBanner = () => {
 								maxWidth: 'auto',
 								maxHeight: 'auto',
 								whiteSpace: 'nowrap',
+								color: '#f9844c',
 							}}
 						>
 							<p>
@@ -538,6 +552,7 @@ const TopBanner = () => {
 								maxWidth: 'auto',
 								maxHeight: 'auto',
 								whiteSpace: 'nowrap',
+								color: '#f9844c',
 							}}
 						>
 							<p>
@@ -603,7 +618,7 @@ const TopBanner = () => {
 								type='button'
 								className='btn btn-primary'
 								style={{
-									backgroundColor: '#e84700',
+									backgroundColor: '#000',
 									border: '1px solid #e95e1d',
 									color: '#f9844c',
 								}}

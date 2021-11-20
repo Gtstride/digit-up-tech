@@ -17,51 +17,34 @@ const Footer = () => {
 									<img src={footer} alt='Elynore' />
 								</a>
 								<p className='footer-content'>
-									Lorem ipsum dolor sit amet, consect tempor incididunt ut labore et
-									dolore magna aliqua. Ut enim ad minim ven.
+									Lorem ipsum dolor sit amet, consect tempor incididunt ut labore et dolore magna
+									aliqua. Ut enim ad minim ven.
 								</p>
 							</div>
 							{/* /.col-xs-12 .col-sm-3 .col-md-3 */}
 							<div className='wow zoomIn col-xs-12 col-sm-3 col-md-3'>
-								<p className='footer-heading'>link</p>
+								<p className='footer-heading'>Check Out</p>
 								<ul className='footermenu'>
 									<li>
-										<a
-											data-scroll
-											data-options='{ "easing": "easeInQuad" }'
-											href='#about'
-										>
+										<a data-scroll data-options='{ "easing": "easeInQuad" }' href='#about'>
 											about us
 										</a>
 									</li>
 									<li>
-										<a
-											data-scroll
-											data-options='{ "easing": "easeInQuad" }'
-											href='#services'
-										>
+										<a data-scroll data-options='{ "easing": "easeInQuad" }' href='#services'>
 											services
 										</a>
 									</li>
-									{/* <li>
-										<a
-											data-scroll
-											data-options='{ "easing": "easeInQuad" }'
-											href='#product'
-										>
-											product
-										</a>
-									</li> */}
 									<li>
 										<a data-scroll data-options='{ "easing": "easeInQuad" }' href='#team'>
 											team
 										</a>
 									</li>
-									{/* <li>
-										<a data-scroll data-options='{ "easing": "easeInQuad" }' href='#blog'>
-											blog
+									<li>
+										<a data-scroll data-options='{ "easing": "easeInQuad" }' href='#product'>
+											portfolio
 										</a>
-									</li> */}
+									</li>
 									<li>
 										<a data-scroll data-options='{"easing": "easInQuad"}' href='#contact'>
 											contact
@@ -75,7 +58,7 @@ const Footer = () => {
 								<ul className='footercontact'>
 									<li>
 										<i className='flaticon-mainpage' />
-										<span>address:</span> 11, Adekoya Off College road, Ogba - Lagos
+										<span>address:</span> 11, Adekoya College road,Ogba - Lagos
 									</li>
 									<li>
 										<i className='flaticon-phone16' />
@@ -85,16 +68,25 @@ const Footer = () => {
 									<li>
 										<i className='flaticon-email21' />
 										<span>e-mail:</span>
-										<a href='mailto:support@themerole.com'>support@elynore.globe</a>
+										<a href='mailto:support@themerole.com'> support@elynore.globe</a>
 									</li>
 									<li>
 										<i className='flaticon-world91' />
 										<span>web:</span>
-										<a href='http://themerole.com'>www.elynore.globe.com</a>
+										<a href='http://themerole.com'> www.elynore.globe.com</a>
 									</li>
 								</ul>
 								<i className='flaticon-home78' />
 							</div>
+							{/* <li>
+										<a
+											data-scroll
+											data-options='{ "easing": "easeInQuad" }'
+											href='#product'
+										>
+											product
+										</a>
+									</li> */}
 							{/* /.col-xs-12 .col-sm-3 .col-md-3 */}
 							{/* <div className='wow zoomIn col-xs-12 col-sm-6 col-md-3'>
 								<p className='footer-heading'>recent posts</p>
@@ -124,8 +116,13 @@ const Footer = () => {
 						<div className='row'>
 							<div className='wow zoomIn col-xs-12'>
 								<p>
-									&copy; Copyright {today.getFullYear()} © All rights reserved.
-									<span>ELYNORE</span>
+									All rights reserved &copy; Copyright{' '}
+									<span>
+										<i>
+											<b> ELYNORE </b>
+										</i>
+									</span>
+									{today.getFullYear()}
 									{/* <a href='http://themerole.com'>themerole</a> */}
 								</p>
 								<div className='backtop  pull-right'>
@@ -152,7 +149,9 @@ const Footer = () => {
 						<a href='#team'>team</a>
 					</li>
 
-					{/* <li><a href='#product'>product</a></li> */}
+					<li>
+						<a href='#product'>Portfolio</a>
+					</li>
 					{/* <li><a href='#blog'>blog</a>
 						<ul>
 							<li><a href='blog-full-width.html'>full width blog</a></li>

@@ -13,7 +13,7 @@ const OurTeam = () => {
 				<div className='container'>
 					<div className='row'>
 						<div className='wow zoomIn col-xs-12 text-center p-padding'>
-							<h1 className='section-title'>meet our team</h1>
+							<h1 className='section-title'>meet the team</h1>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan
 								venenatis lectus sed sollicitudin. Duis in odio ex. Sed elementum varius
