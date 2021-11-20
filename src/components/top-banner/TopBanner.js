@@ -53,36 +53,13 @@ const TopBanner = () => {
 								zIndex: 5,
 								maxWidth: 'auto',
 								maxHeight: 'auto',
-								fontSize: 85,
 								whiteSpace: 'nowrap',
 								color: '#fff',
 							}}
 						>
-							<h1>OUR THINKING</h1>
+							<h2>OUR THINKING</h2>
 						</div>
-						{/* <div
-							className='tp-caption very_large_text lfb ltt skewfromrightshort fadeout tp-resizeme head-tag'
-							data-x={1090}
-							data-y={200}
-							data-speed={1500}
-							data-start={5480}
-							data-easing='Power3.easeInOut'
-							data-splitin='chars'
-							data-splitout='none'
-							data-elementdelay='0.1'
-							data-endelementdelay='0.1'
-							data-endspeed={300}
-							style={{
-								zIndex: 3,
-								maxWidth: 'auto',
-								maxHeight: 'auto',
-								fontSize: 45,
-								whiteSpace: 'nowrap',
-								color: '#fff',
-							}}
-						>
-							<h2>YOUR PRODUCT</h2>
-						</div> */}
+
 						{/* LAYERS */}
 						<div
 							className='tp-caption very_large_text lfb ltt skewfromrightshort fadeout tp-resizeme'
@@ -107,29 +84,6 @@ const TopBanner = () => {
 						>
 							<h1>YOUR PRODUCT</h1>
 						</div>
-						{/* <div
-							className='tp-caption very_large_text lfb ltt skewfromrightshort fadeout tp-resizeme'
-							data-x={1024}
-							data-y={282}
-							data-speed={1500}
-							data-start={6500}
-							data-easing='Power3.easeInOut'
-							data-splitin='chars'
-							data-splitout='none'
-							data-elementdelay='0.1'
-							data-endelementdelay='0.1'
-							data-endspeed={300}
-							style={{
-								zIndex: 5,
-								maxWidth: 'auto',
-								maxHeight: 'auto',
-								fontSize: 63,
-								whiteSpace: 'nowrap',
-								color: '#fff',
-							}}
-						>
-							<h1>NICE</h1>
-						</div> */}
 						<div
 							className='tp-caption lft randomrotate customout'
 							data-x='left'
