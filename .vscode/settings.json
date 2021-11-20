@@ -3,5 +3,5 @@
     "prettier.insertPragma": true,
     "prettier.jsxSingleQuote": true,
     "prettier.singleQuote": true,
-    "prettier.useTabs": true
+    "prettier.useTabs": true, 
 }
