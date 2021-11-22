@@ -57,9 +57,8 @@ const TopBanner = () => {
 								color: '#fff',
 							}}
 						>
-							<h2>OUR THINKING</h2>
+							<h1>OUR THINKING</h1>
 						</div>
-
 						{/* LAYERS */}
 						<div
 							className='tp-caption very_large_text lfb ltt skewfromrightshort fadeout tp-resizeme'
@@ -77,7 +76,7 @@ const TopBanner = () => {
 								zIndex: 5,
 								maxWidth: 'auto',
 								maxHeight: 'auto',
-								fontSize: 65,
+								fontSize: 55,
 								whiteSpace: 'nowrap',
 								color: '#f9844c',
 							}}

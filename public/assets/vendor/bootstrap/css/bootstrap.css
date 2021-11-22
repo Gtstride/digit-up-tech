@@ -4164,10 +4164,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
   position: fixed;
-  height: 50px; 
-  top: 0;
-  /* overflow: hidden; */
+  /* min-width: -webkit-fill-available; */
   width: 100%;
+  top: 0;
+  height: 50px;
 }
 .navbar-default .navbar-brand {
   color: #777;
