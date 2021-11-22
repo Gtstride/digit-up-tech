@@ -15,3 +15,17 @@ i.search.fa.search-btn.fa-search {
     display: block;
     margin-top: -12px;
 }
+
+/* .navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    position: fixed;
+    -webkit-ruby-position: before;
+    min-width: -webkit-fill-available;
+    height: 15px;
+} */
+
+.section-title {
+    position: relative;
+    margin-top: 81px;
+}
