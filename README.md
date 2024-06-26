@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Getting Started
 
-This is Elynore Teck Web Page.
+This is Digit uP Tech Services Web Page.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -42,7 +42,7 @@ Don't forget to give the project a star! Thanks again!
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Gtstride/elynore_web.git
+   git clone https://github.com/Gtstride/digit-up-tech
    ```
 2. Cd into your working folder
 

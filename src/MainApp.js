@@ -27,7 +27,7 @@ const MainApp = () => {
 				<WhoWeAre />
 				<OurServices />
 				{/* <CleanCode /> */}
-				<LatestWork />
+				{/* <LatestWork /> */}
 				<OurTeam />
 				<Counting />
 				<Testimonia />

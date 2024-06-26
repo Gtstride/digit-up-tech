@@ -14,12 +14,7 @@ const OurTeam = () => {
 					<div className='row'>
 						<div className='wow zoomIn col-xs-12 text-center p-padding'>
 							<h1 className='section-title'>meet the team</h1>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan
-								venenatis lectus sed sollicitudin. Duis in odio ex. Sed elementum varius
-								enim. In vel tincidunt lorem. Donec gravida felis vitae ipsum pharetra
-								maximus.
-							</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan venenatis lectus sed sollicitudin. Duis in odio ex. Sed elementum varius enim. In vel tincidunt lorem. Donec gravida felis vitae ipsum pharetra maximus.</p>
 						</div>
 					</div>
 					<div className='row'>
@@ -52,71 +47,7 @@ const OurTeam = () => {
 							</div>
 							<div className='team-designation'>
 								<p>GODSTIME AGHO</p>
-								<span>CEO / team-lead</span>
-							</div>
-						</div>
-						<div className='wow zoomIn col-xs-12 col-sm-6 col-md-3'>
-							<div className='grid'>
-								<figure className='effect-duke'>
-									<img className='img-responsive' src={team5} alt='img09' />
-									<figcaption>
-										<div className='icon-holder'>
-											<ul>
-												<li>
-													<a href='#0' target='_blank'>
-														<i className='fa fa-facebook' />
-													</a>
-												</li>
-												<li>
-													<a href='#0' target='_blank'>
-														<i className='fa fa-twitter' />
-													</a>
-												</li>
-												<li>
-													<a href='#0' target='_blank'>
-														<i className='fa fa-linkedin' />
-													</a>
-												</li>
-											</ul>
-										</div>
-									</figcaption>
-								</figure>
-							</div>
-							<div className='team-designation'>
-								<p>XXX</p>
-								<span>hrm / graphics </span>
-							</div>
-						</div>
-						<div className=' wow zoomIn col-xs-12 col-sm-6 col-md-3'>
-							<div className='grid'>
-								<figure className='effect-duke'>
-									<img className='img-responsive' src={team2} alt='img09' />
-									<figcaption>
-										<div className='icon-holder'>
-											<ul>
-												<li>
-													<a href='#0' target='_blank'>
-														<i className='fa fa-facebook' />
-													</a>
-												</li>
-												<li>
-													<a href='#0' target='_blank'>
-														<i className='fa fa-twitter' />
-													</a>
-												</li>
-												<li>
-													<a href='#0' target='_blank'>
-														<i className='fa fa-linkedin' />
-													</a>
-												</li>
-											</ul>
-										</div>
-									</figcaption>
-								</figure>
-							</div>
-							<div className='team-designation'>
-								<p>Olubusola A</p>
-								<span>cto / programmer</span>
+								<span>team-lead</span>
 							</div>
 						</div>
 						<div className='wow zoomIn col-xs-12 col-sm-6 col-md-3'>
@@ -149,6 +80,103 @@ const OurTeam = () => {
 							<div className='team-designation'>
 								<p>Anifowose Adekunle</p>
 								<span>adviser / partner</span>
+							</div>
+						</div>
+						{/* <div className='wow zoomIn col-xs-12 col-sm-6 col-md-3'>
+							<div className='grid'>
+								<figure className='effect-duke'>
+									<img className='img-responsive' src={team5} alt='img09' />
+									<figcaption>
+										<div className='icon-holder'>
+											<ul>
+												<li>
+													<a href='#0' target='_blank'>
+														<i className='fa fa-facebook' />
+													</a>
+												</li>
+												<li>
+													<a href='#0' target='_blank'>
+														<i className='fa fa-twitter' />
+													</a>
+												</li>
+												<li>
+													<a href='#0' target='_blank'>
+														<i className='fa fa-linkedin' />
+													</a>
+												</li>
+											</ul>
+										</div>
+									</figcaption>
+								</figure>
+							</div>
+							<div className='team-designation'>
+								<p>XXX</p>
+								<span>hrm / graphics </span>
+							</div>
+						</div> */}
+						<div className=' wow zoomIn col-xs-12 col-sm-6 col-md-3'>
+							<div className='grid'>
+								<figure className='effect-duke'>
+									<img className='img-responsive' src={team2} alt='img09' />
+									<figcaption>
+										<div className='icon-holder'>
+											<ul>
+												<li>
+													<a href='#0' target='_blank'>
+														<i className='fa fa-facebook' />
+													</a>
+												</li>
+												<li>
+													<a href='#0' target='_blank'>
+														<i className='fa fa-twitter' />
+													</a>
+												</li>
+												<li>
+													<a href='#0' target='_blank'>
+														<i className='fa fa-linkedin' />
+													</a>
+												</li>
+											</ul>
+										</div>
+									</figcaption>
+								</figure>
+							</div>
+							<div className='team-designation'>
+								<p>Olubusola A</p>
+								<span>cto / programmer</span>
+							</div>
+						</div>
+
+						<div className='wow zoomIn col-xs-12 col-sm-6 col-md-3'>
+							<div className='grid'>
+								<figure className='effect-duke'>
+									<img className='img-responsive' src={team5} alt='img09' />
+									<figcaption>
+										<div className='icon-holder'>
+											<ul>
+												<li>
+													<a href='#0' target='_blank'>
+														<i className='fa fa-facebook' />
+													</a>
+												</li>
+												<li>
+													<a href='#0' target='_blank'>
+														<i className='fa fa-twitter' />
+													</a>
+												</li>
+												<li>
+													<a href='#0' target='_blank'>
+														<i className='fa fa-linkedin' />
+													</a>
+												</li>
+											</ul>
+										</div>
+									</figcaption>
+								</figure>
+							</div>
+							<div className='team-designation'>
+								<p>XXX</p>
+								<span>Senior Partner</span>
 							</div>
 						</div>
 					</div>

@@ -6,8 +6,8 @@ import slider1 from '../../img/slider/slider_img_01.jpg';
 import slider02 from '../../img/slider/slider_img_02.jpg';
 import slider03 from '../../img/slider/slider_img_03.jpg';
 import slider04 from '../../img/slider/slider_img_04.png';
-import mobile from '../../img/slider/mobile.png';
-import html from '../../img/slider/html.png';
+import mobile from '../../img/slider/cyber.png';
+import html from '../../img/slider/training.png';
 import css from '../../img/slider/css.png';
 import js from '../../img/slider/js.png';
 import btn from '../../img/slider_button.png';
@@ -18,25 +18,9 @@ const TopBanner = () => {
 			<div className='tp-banner'>
 				<ul>
 					{/* SLIDE  */}
-					<li
-						data-transition='fade'
-						data-slotamount={25}
-						data-masterspeed={2500}
-						data-thumb={slider1}
-						data-saveperformance='off'
-					>
+					<li data-transition='fade' data-slotamount={25} data-masterspeed={2500} data-thumb={slider1} data-saveperformance='off'>
 						{/* MAIN IMAGE */}
-						<img
-							src={slider04}
-							alt='fullslide2'
-							data-bgposition='center center'
-							data-kenburns='on'
-							data-duration={12000}
-							data-ease='Power0.easeInOut'
-							data-bgfit={115}
-							data-bgfitend={100}
-							data-bgpositionend='center center'
-						/>
+						<img src={slider04} alt='fullslide2' data-bgposition='center center' data-kenburns='on' data-duration={12000} data-ease='Power0.easeInOut' data-bgfit={115} data-bgfitend={100} data-bgpositionend='center center' />
 						<div
 							className='tp-caption very_large_text lfb ltt skewfromrightshort fadeout tp-resizeme head-tag'
 							data-x={637}
@@ -83,65 +67,16 @@ const TopBanner = () => {
 						>
 							<h1>YOUR PRODUCT</h1>
 						</div>
-						<div
-							className='tp-caption lft randomrotate customout'
-							data-x='left'
-							data-y='center'
-							data-voffset={110}
-							data-customout='x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;'
-							data-speed={800}
-							data-start={2000}
-							data-easing='Back.easeOut'
-							data-endspeed={500}
-							data-endeasing='Power4.easeIn'
-							data-captionhidden='on'
-							style={{ zIndex: 9 }}
-						>
+						<div className='tp-caption lft randomrotate customout' data-x='left' data-y='center' data-voffset={110} data-customout='x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;' data-speed={800} data-start={2000} data-easing='Back.easeOut' data-endspeed={500} data-endeasing='Power4.easeIn' data-captionhidden='on' style={{ zIndex: 9 }}>
 							<img src={mobile} alt='' data-ww={550} data-hh={490} />
 						</div>
-						<div
-							className='tp-caption lfl randomrotate tp-resizeme'
-							data-x={60}
-							data-y='bottom'
-							data-voffset={-70}
-							data-speed={800}
-							data-start={3000}
-							data-easing='Back.easeOut'
-							data-endspeed={500}
-							data-endeasing='Power4.easeIn'
-							data-captionhidden='on'
-							style={{ zIndex: 9 }}
-						>
+						<div className='tp-caption lfl randomrotate tp-resizeme' data-x={60} data-y='bottom' data-voffset={-70} data-speed={800} data-start={3000} data-easing='Back.easeOut' data-endspeed={500} data-endeasing='Power4.easeIn' data-captionhidden='on' style={{ zIndex: 9 }}>
 							<img src={html} alt='' data-ww={125} data-hh={160} />
 						</div>
-						<div
-							className='tp-caption randomrotate tp-resizeme'
-							data-x={210}
-							data-y='bottom'
-							data-voffset={-70}
-							data-speed={800}
-							data-start={4000}
-							data-easing='Back.easeOut'
-							data-endspeed={500}
-							data-endeasing='Power4.easeIn'
-							data-captionhidden='on'
-							style={{ zIndex: 9 }}
-						>
+						<div className='tp-caption randomrotate tp-resizeme' data-x={210} data-y='bottom' data-voffset={-70} data-speed={800} data-start={4000} data-easing='Back.easeOut' data-endspeed={500} data-endeasing='Power4.easeIn' data-captionhidden='on' style={{ zIndex: 9 }}>
 							<img src={css} alt='' data-ww={125} data-hh={160} />
 						</div>
-						<div
-							className='tp-caption sfr randomrotate tp-resizeme'
-							data-x={360}
-							data-y='bottom'
-							data-voffset={-70}
-							data-speed={800}
-							data-start={5000}
-							data-easing='Back.easeOut'
-							data-endspeed={500}
-							data-endeasing='Power4.easeIn'
-							data-captionhidden='on'
-							style={{ zIndex: 9 }}
-						>
+						<div className='tp-caption sfr randomrotate tp-resizeme' data-x={360} data-y='bottom' data-voffset={-70} data-speed={800} data-start={5000} data-easing='Back.easeOut' data-endspeed={500} data-endeasing='Power4.easeIn' data-captionhidden='on' style={{ zIndex: 9 }}>
 							<img src={js} alt='' data-ww={125} data-hh={160} />
 						</div>
 						{/* LAYER NR. 2 */}
@@ -187,9 +122,7 @@ const TopBanner = () => {
 								whiteSpace: 'nowrap',
 							}}
 						>
-							<h2 className='small-title second-title'>
-								Lean on us for your bespoke web
-							</h2>
+							<h2 className='small-title second-title'>Lean on us for your bespoke training / web services</h2>
 						</div>
 						{/* LAYER NR. 4 */}
 						<div
@@ -212,9 +145,7 @@ const TopBanner = () => {
 								whiteSpace: 'nowrap',
 							}}
 						>
-							<h2 className='small-title second-title'>
-								Get the Perfect, HTML5, CSS &amp; JS Training
-							</h2>
+							<h2 className='small-title second-title'>Get the training you deserve, the website that befits your organization or you!</h2>
 						</div>
 						{/* LAYER NR. 5 */}
 						<div
@@ -250,27 +181,9 @@ const TopBanner = () => {
 							</button>
 						</div>
 					</li>
-					<li
-						className='items'
-						data-transition='slideleft'
-						data-slotamount={1}
-						data-masterspeed={1500}
-						data-thumb={slider02}
-						data-delay={13000}
-						data-saveperformance='on'
-					>
+					<li className='items' data-transition='slideleft' data-slotamount={1} data-masterspeed={1500} data-thumb={slider02} data-delay={13000} data-saveperformance='on'>
 						{/* MAIN IMAGE */}
-						<img
-							src={slider02}
-							alt='kenburns1'
-							data-bgposition='left center'
-							data-kenburns='on'
-							data-duration={14000}
-							data-ease='Linear.easeNone'
-							data-bgfit={100}
-							data-bgfitend={130}
-							data-bgpositionend='right center'
-						/>
+						<img src={slider02} alt='kenburns1' data-bgposition='left center' data-kenburns='on' data-duration={14000} data-ease='Linear.easeNone' data-bgfit={100} data-bgfitend={130} data-bgpositionend='right center' />
 						{/* LAYERS */}
 						{/* LAYER NR. 1 */}
 						<div
@@ -290,11 +203,11 @@ const TopBanner = () => {
 								maxWidth: 'auto',
 								maxHeight: 'auto',
 								whiteSpace: 'nowrap',
-								color: '#f9844c',
+								color: '#fff',
 							}}
 						>
 							<h1>
-								<span>ELYNORE</span> : YOU TO THE WORLD
+								<span>Digit uP</span> : YOU TO THE WORLD
 							</h1>
 						</div>
 						{/* LAYER NR. 2 */}
@@ -317,9 +230,7 @@ const TopBanner = () => {
 								whiteSpace: 'nowrap',
 							}}
 						>
-							<h2 className='small-title'>
-								Get Your BeSpoke Web App Delivered On-time
-							</h2>
+							<h2 className='small-title'>Get Your BeSpoke Web App Delivered On-time</h2>
 						</div>
 						{/* LAYER NR. 3 */}
 						<div
@@ -405,15 +316,7 @@ const TopBanner = () => {
 							</button>
 						</div>
 					</li>
-					<li
-						className='items'
-						data-transition='slidevertical'
-						data-slotamount={1}
-						data-masterspeed={1500}
-						data-thumb={slider03}
-						data-delay={13000}
-						data-saveperformance='off'
-					>
+					<li className='items' data-transition='slidevertical' data-slotamount={1} data-masterspeed={1500} data-thumb={slider03} data-delay={13000} data-saveperformance='off'>
 						{/* MAIN IMAGE */}
 						<img
 							// src={slider03}
@@ -480,10 +383,7 @@ const TopBanner = () => {
 								color: '#f9844c',
 							}}
 						>
-							<p>
-								Nothing like learning from those who already know these things and how
-								the system works,
-							</p>
+							<p>Nothing like learning from those who already know these things and how the system works,</p>
 						</div>
 						{/* LAYER NR. 3 */}
 						<div
@@ -508,10 +408,7 @@ const TopBanner = () => {
 								color: '#f9844c',
 							}}
 						>
-							<p>
-								we are here to walk you you all the way, to the top, till those big
-								dreams become a reality.
-							</p>
+							<p>we are here to walk you you all the way, to the top, till those big dreams become a reality.</p>
 						</div>
 						{/* LAYER NR. 4 */}
 						<div
@@ -536,11 +433,7 @@ const TopBanner = () => {
 								whiteSpace: 'nowrap',
 							}}
 						>
-							<button
-								type='button'
-								className='btn btn-danger'
-								style={{ backgroundColor: 'transparent' }}
-							>
+							<button type='button' className='btn btn-danger' style={{ backgroundColor: 'transparent' }}>
 								see More
 							</button>
 						</div>

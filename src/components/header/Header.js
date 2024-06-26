@@ -1,7 +1,7 @@
 /** @format */
 
 import React from 'react';
-import tech from '../../img/top-level-logo.png';
+import digit from '../../img/logo1-noBG.png';
 
 const Header = () => {
 	return (
@@ -13,15 +13,7 @@ const Header = () => {
 						<div className='container'>
 							<div className='navbar-header page-scroll'>
 								<a href='#menu'>
-									<button
-										type='button'
-										data-effect='st-effect-1'
-										className='navbar-toggle collapsed'
-										data-toggle='collapse'
-										data-target='#navbar'
-										aria-expanded='false'
-										aria-controls='navbar'
-									>
+									<button type='button' data-effect='st-effect-1' className='navbar-toggle collapsed' data-toggle='collapse' data-target='#navbar' aria-expanded='false' aria-controls='navbar'>
 										<span className='sr-only'>Toggle navigation</span>
 										<span className='icon-bar' />
 										<span className='icon-bar' />
@@ -29,14 +21,11 @@ const Header = () => {
 									</button>
 								</a>
 								<a className='navbar-brand' href='index.html'>
-									<img src={tech} alt='TechGut' />
+									<img src={digit} alt='Digit-uP' height={150} />
 								</a>
 							</div>
 
-							<div
-								id='navbar'
-								className='navbar-collapse collapse pull-right hidden-xs'
-							>
+							<div id='navbar' className='navbar-collapse collapse pull-right hidden-xs'>
 								<ul className='nav navbar-nav navbar-right'>
 									<li>
 										<a className='page-scroll' href='#home'>
@@ -53,11 +42,11 @@ const Header = () => {
 											Services
 										</a>
 									</li>
-									<li>
+									{/* <li>
 										<a className='page-scroll' href='#product'>
 											Portfolio
 										</a>
-									</li>
+									</li> */}
 									<li>
 										<a className='page-scroll' href='#team'>
 											team
